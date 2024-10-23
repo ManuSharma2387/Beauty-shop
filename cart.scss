@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: rgba(99, 65, 65, 1);
+    height: 60px;
+    color: white;
+    div{
+        a{
+            color: white;
+            i{
+                margin-left: 10px;
+                
+            }
+            :hover{
+            color: rgb(154, 102, 102);
+        }
+        }
+    }
+    ul {
+    display: flex;
+    gap: 50px;
+    
+    li{
+        text-decoration: none;
+        list-style:none; 
+        a{
+              text-decoration: none;
+             color: white;
+        //    font-size: 20px;
+        // :hover{
+        //     color: red;
+        // }
+        }
+        :hover{
+            color: rgb(154, 102, 102);
+        }
+    }
+    
+    }
+    button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    :hover{
+            color: rgb(154, 102, 102);
+        }
+    
+    }
+}
+
+section{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+    #div1{
+        // display: flex;
+        position: absolute;
+        top: 30%;
+        // background-color: aqua;
+        margin-left: 300px;
+       
+        width: 40%;
+        height: 400px;
+
+        #cart1{
+
+            margin-top: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+             border-top:1px solid rgb(72, 71, 71) ;
+             border-bottom:1px solid rgb(72, 71, 71);
+            #img1{
+                width: 80px;
+                height: 80px;
+                background-image: url(/img/lipstick/2e2a49_493d75f7ab9444e494ee62ddc29c7781~mv2.jpg);
+                
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border:1px solid rgba(0, 0, 0, 0.404) ;
+            }
+         h5{
+           font-size: 15px;
+           font-weight: 100;
+        }   
+          #inbtn{
+            width: 100px;
+            height: 30px;
+            background-color: white;
+            border: 1px solid black;
+        }   
+        i{
+            color: rgba(0, 0, 0, 0.792);
+        }      
+        }
+
+        
+        #cart2{
+            // margin-top: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            //  border-top:1px solid rgb(72, 71, 71) ;
+             border-bottom:1px solid rgb(72, 71, 71);
+            #img1{
+                width: 80px;
+                height: 80px;
+                background-image: url(/img/lipstick/2e2a49_493d75f7ab9444e494ee62ddc29c7781~mv2.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border:1px solid rgba(0, 0, 0, 0.404) ;
+            } 
+            h5{
+           font-size: 15px;
+           font-weight: 100;
+
+        } 
+        i{
+            color: rgba(0, 0, 0, 0.792);
+        }
+        #inbtn{
+            width: 100px;
+            height: 30px;
+            background-color: white;
+            border: 1px solid black;
+            margin-left: 52px;
+        }
+            
+        }
+
+        h2{
+            margin-top: 10px;
+            font-weight: 100;
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.733);
+        }
+    }
+}
+
+footer{
+   
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    #div1{
+        padding-top: 70px;
+        gap: 10px;
+        height: 40%;
+        border-bottom:2px solid rgb(108, 106, 106) ;
+        h1{
+        padding-left: 35%;
+
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+        h6{
+        padding-left: 35%;
+            margin-bottom: 15px;
+
+
+            font-size: 20px;
+            font-weight: 100;
+            margin-left: 80px;
+        }
+        div{
+            padding-left: 30%;
+            
+         input{
+            margin-right: 10px;
+            margin-top:10px ;
+          width: 350px;
+          height: 40px;
+         } 
+         button{
+            width: 250px;
+          height: 40px;
+           background-color: white;
+           color: black;
+           border: none;
+         }
+        }
+    }
+    #div2{
+        // height: 80%;
+        display: flex;
+         padding: 100px;
+         gap: 220px;
+
+      h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      h6{
+        font-size: 15px;
+        font-weight: 100;
+        color: rgba(255, 255, 255, 0.591);
+      }
+
+    }
+
+}

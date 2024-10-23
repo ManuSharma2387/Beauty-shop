@@ -1,0 +1,317 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: rgba(99, 65, 65, 1);
+    height: 60px;
+    color: white;
+    div{
+        a{
+            color: white;
+            i{
+                margin-left: 10px;
+                
+            }
+            :hover{
+            color: rgb(154, 102, 102);
+        }
+        }
+    }
+    ul {
+    display: flex;
+    gap: 50px;
+    
+    li{
+        text-decoration: none;
+        list-style:none; 
+        a{
+              text-decoration: none;
+             color: white;
+        //    font-size: 20px;
+        // :hover{
+        //     color: red;
+        // }
+        }
+        :hover{
+            color: rgb(154, 102, 102);
+        }
+    }
+    
+    }
+    button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    :hover{
+            color: rgb(154, 102, 102);
+        }
+    
+    }
+}
+
+#section1{
+   
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/2e2a49_db29dbd54f594c648ec3807b118e6718~mv2.webp);
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white;
+    div{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+    margin-left: 250px;
+    padding-top: 200px;
+    button{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    :hover{
+    background-color: white;
+    color: black;
+    
+}
+}
+   }
+   h4{
+    font-size: 20px;
+   }
+   h1{
+   font-size: 70px;
+   span{
+   font-style:italic;
+    }
+   }
+   p{
+    font-size: 20px;
+    line-height: 25px;
+   }
+
+}
+
+#section2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h6{
+        font-size: 25px;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.605);
+    }
+    h2{
+       font-size: 60px;
+        font-weight: 500;
+        // color: rgba(0, 0, 0, 0.605);
+        span{
+            font-style: italic;
+        }
+    }
+    .container{
+        margin-top: 30px;
+    display: grid ;
+    width: 100%;
+    grid-template-columns: repeat(6,1fr);
+    // gap: 30px;
+    width: 100%;
+    // height: 100%;    
+  
+    background-color: white;
+   
+    .card{
+        width: 250px;
+        height: 440px;
+        // border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // gap: 10px;
+
+
+        div{
+            width: 100%;
+        img{
+            width: 100%;
+            
+        } 
+         
+
+        }
+        h1{
+            font-weight: 100;
+            font-size: 20px;
+        }
+        h6{
+            margin-top: 10px;
+            font-weight: 100;
+            font-size: 15px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .icons{
+           color: rgba(99, 65, 65, 1);
+        //    background-color: black;
+           width: 55%;
+           i{
+            margin-left: 4px;
+           }
+        }
+        button{
+            margin-top: 20px;
+            width: 200px;
+            height: 40px;
+            background-color: transparent;
+            border: 1px solid black;
+            font-size: 15px;
+            
+            // display: none;
+        }
+        
+
+    }
+    #splcard{
+      h6{
+        margin-top: 12px;
+      }  
+    }
+
+}
+  #mainbtn{
+    width: 200px;
+    height: 50px;
+    margin-top: 80px;
+    background-color:white;
+    border: 1px solid black;
+    :hover{
+                color: white;
+                background-color: black;
+            }
+  }
+}
+
+#section3{
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/section3/2e2a49_37afad752477458cbc7a9b205e02caae~mv2.jpg)  ;
+
+    div{
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 50%;
+
+        p{
+            font-size: 20px;
+            width: 500px;
+            margin-bottom: 30px;
+        }
+        a{
+            color: white;
+        }
+        h3{
+            margin-left: 50%;
+            font-weight: 100;
+        }
+        h1{
+            margin-left: 50%;
+
+            font-size: 40px;
+        }
+        span{
+            font-style: italic;
+        }
+    }
+}
+
+footer{
+   
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    #div1{
+        padding-top: 70px;
+        gap: 10px;
+        height: 40%;
+        border-bottom:2px solid rgb(108, 106, 106) ;
+        h1{
+        padding-left: 35%;
+
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+        h6{
+        padding-left: 35%;
+            margin-bottom: 15px;
+
+
+            font-size: 20px;
+            font-weight: 100;
+            margin-left: 80px;
+        }
+        div{
+            padding-left: 30%;
+            
+         input{
+            margin-right: 10px;
+            margin-top:10px ;
+          width: 350px;
+          height: 40px;
+         } 
+         button{
+            width: 250px;
+          height: 40px;
+           background-color: white;
+           color: black;
+           border: none;
+         }
+        }
+    }
+    #div2{
+        // height: 80%;
+        display: flex;
+         padding: 100px;
+         gap: 220px;
+
+      h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      h6{
+        font-size: 15px;
+        font-weight: 100;
+        color: rgba(255, 255, 255, 0.591);
+      }
+
+    }
+
+}
